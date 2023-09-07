@@ -7,8 +7,9 @@ que hayamos añadido al cuaderno de recetas). Todas las recetas se almacenan en 
 * Podemos dividir entonces en dos componentes principales, un encabezado y el cuerpo. Tambien añadir un pie de página que contenga mi nombre y email.
 
 Recetario:
-* En la página de 'Todas las recetas' hacer tarjetas por separado que muestren una foto, el nombre de la receta, el tipo (panadería, reposteria, almuerzo/cena) y una pequeña descripción. Al hacer click en la tarjeta hay que moverse a la página principal de la receta con todos los ingredientes,
-el procedimiento y los tips.
+* En la página de 'Todas las recetas' hacer tarjetas por separado que muestren una foto, el nombre de la receta, el tipo (panadería, reposteria, 
+almuerzo/cena) y una pequeña descripción. Al hacer click en la tarjeta hay que moverse a la página principal de la receta con todos los ingredientes,
+el procedimiento y los tips. Se va aponer un mock de 'Añadir receta' más adelante.
 
 Componentes:
 * Encabezado.

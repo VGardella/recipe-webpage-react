@@ -1,8 +1,9 @@
-# React + Vite
+# Recipe Webpage Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Notebook with personal recipes. Initialy will only show recipes stored on the same app, 'Add recipe' functionality and posible 
+database conection will be added later.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Functionality:
+* Homepage: show 'Popular recipes' reel and 'Last recipes'.
+* 'Show all recipes': show cards for each recipe with a link to the complete information and step by step.
+* 'Add recipe': mock functionality.
