@@ -1,0 +1,29 @@
+Disposición:
+* Pagina principal con un header como el del dashboard. En el header poner un buscador para las recetas porque vamos a usar varias.
+Poner un saludo a un usuario falso con mi nombre y un boton de notificaciones, haciendo que si se hace click aparezca un cuadro indicando una
+posible funcionalidad. En la partede abajo poner botones 'Todas las recetas', 'Principal', 'Añadir receta'.
+* La página principal puede tener una receta destacada o popular, pasando 4 en un reel y por abajo, un conjunto de ultimas recetas (usamos las ultimas 
+que hayamos añadido al cuaderno de recetas). Todas las recetas se almacenan en tarjetas.
+* Podemos dividir entonces en dos componentes principales, un encabezado y el cuerpo. Tambien añadir un pie de página que contenga mi nombre y email.
+
+Recetario:
+* En la página de 'Todas las recetas' hacer tarjetas por separado que muestren una foto, el nombre de la receta, el tipo (panadería, reposteria, almuerzo/cena) y una pequeña descripción. Al hacer click en la tarjeta hay que moverse a la página principal de la receta con todos los ingredientes,
+el procedimiento y los tips.
+
+Componentes:
+* Encabezado.
+	* Logo.
+	* Foto de perfil con nombre, boton de notificaciones y saludo.
+	* Barra de busqueda.
+	* Botones.
+* Cuerpo/página principal.
+	* Reel (Reel con las tarjetas destacadas? Se reciclan las mismas tarjetas o se teien que hacer un componente Reel?).
+	* Recetas destacadas/ultimas recetas.
+* Pie de página.
+* Tarjetas de recetas.
+* Para la página de cada receta:
+	* Titulo.
+	* Foto con descripción.
+	* Ingredientes.
+	* Paso a Paso.
+	* Tips.
