@@ -1,22 +1,25 @@
 export function Header() {
     return(
         <div className='header'>
-            <div id='header-top'>
-                <img id='logo' src='' alt='My notebook logo!'></img>
+            <div className='header-section' id='header-top'>
+                <img className='user-info' id='logo' src='../src/assets/logo.png' alt='My notebook logo!'></img>
                 <div id='user-links'>
                     <a href=''>
-                        <img id='notifications' src='' alt='' />
+                        <img className='user-info' id='notifications' src='../src/assets/notification.png' alt='Notification icons created by Aldo Cervantes - Flaticon'/>
                     </a>
                     <a href=''>
-                        <img id='user-icon' src='' alt='' />
+                        <img className='user-info' id='user-icon' src='../src/assets/profile-icon.png' alt='' />
                     </a>
-                    <h3 id='user-name'>Victoria Gardella</h3>
+                    <div id="user-greeting">
+                        <p className='user-info' id='user-hi'>Buenos días,</p>
+                        <h3 className='user-info' id='user-name'>Victoria Gardella!</h3>
+                    </div>
                 </div>
             </div>
-            <div id='header-bottom'>
+            <div className='header-section' id='header-bottom'>
                 <div id='search'>
-                    <button type='submit'>
-                        <img src='' alt='' />
+                    <button type='submit' id='search-button'>
+                        <img id='search-img' src='../src/assets/magnifying_glass.png' alt='Haceme click para buscar una receta!' />
                     </button>
                     <input type='search' id='searchbar' />
                 </div>
