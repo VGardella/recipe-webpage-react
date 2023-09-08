@@ -78,7 +78,7 @@ body{
   font-size: 20px;
 }
 
-/* Searchbar */
+/* Search bar */
 
 #search{
   display: flex;
@@ -107,7 +107,11 @@ body{
   border-radius: 0 15px 15px 0;
   height: 30px;
   width: 500px;
-  padding: 0;
+  padding: 10px;
+}
+
+#searchbar:focus{
+  outline: none;
 }
 
 /* Page links */
