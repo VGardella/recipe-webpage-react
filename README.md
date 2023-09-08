@@ -4,6 +4,6 @@ Notebook with personal recipes. Initialy will only show recipes stored on the sa
 database conection will be added later.
 
 Functionality:
-* Homepage: show 'Popular recipes' reel and 'Last recipes'.
+* Homepage: show 'Popular recipes' reel and 'Last recipes'. Make reel automated later.
 * 'Show all recipes': show cards for each recipe with a link to the complete information and step by step.
 * 'Add recipe': mock functionality.
