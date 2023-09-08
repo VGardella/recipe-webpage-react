@@ -24,9 +24,16 @@ export function Header() {
                     <input type='search' id='searchbar' />
                 </div>
                 <div id='page-links'>
-                    <a href='' alt='' id=''>Principal</a>
-                    <a href='' alt='' id=''>Todas las recetas</a>
-                    <a href='' alt='' id=''>Añadir receta</a>
+                    <a href='' alt='' id=''>
+                        <img className='link-img' src='../src/assets/principal.png'></img>
+                        Principal
+                    </a>
+                    <a href='' alt='' id=''>
+                        <img className='link-img' src='../src/assets/all-recipes-cookie.png'></img>
+                        Todas las recetas</a>
+                    <a href='' alt='' id=''>
+                        <img className='link-img' src='../src/assets/add-recipe.png'></img>
+                        Añadir receta</a>
                 </div>
             </div>
         </div>
