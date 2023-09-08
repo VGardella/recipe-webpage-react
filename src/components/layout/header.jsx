@@ -5,14 +5,18 @@ export function Header() {
                 <img className='user-info' id='logo' src='../src/assets/logo.png' alt='My notebook logo!'></img>
                 <div id='user-links'>
                     <a href=''>
-                        <img className='user-info' id='notifications' src='../src/assets/notification.png' alt='Notification icons created by Aldo Cervantes - Flaticon'/>
+                        <img className='user-info' id='notifications' src='../src/assets/notification.png' alt='Notification icons created by Aldo Cervantes - Flaticon'
+                        onMouseOver={e => (e.currentTarget.src = '../src/assets/notification-hover.png')}
+                        onMouseOut={e => (e.currentTarget.src = '../src/assets/notification.png')}/>
                     </a>
-                    <a href=''>
-                        <img className='user-info' id='user-icon' src='../src/assets/profile-icon.png' alt='' />
-                    </a>
-                    <div id="user-greeting">
-                        <p className='user-info' id='user-hi'>Buenos días,</p>
-                        <h3 className='user-info' id='user-name'>Victoria Gardella!</h3>
+                    <div className="user">
+                        <a href=''>
+                            <img className='user-info' id='user-icon' src='../src/assets/profile-icon.png' alt='' />
+                        </a>
+                        <div id="user-greeting">
+                            <p className='user-info' id='user-hi'>Buenos días,</p>
+                            <h3 className='user-info' id='user-name'>Victoria Gardella!</h3>
+                        </div>
                     </div>
                 </div>
             </div>

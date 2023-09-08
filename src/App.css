@@ -63,7 +63,6 @@ body{
 
 .user:hover > a #user-icon{
     border: 2px solid #656b81;
-    color: #656b81;
 }
 
 .user:hover > #user-greeting p,
