@@ -29,6 +29,7 @@ body{
   display: flex;
   align-items: center;
   padding: 5px 20px;
+  background-color: #656b81;
 }
 
 .user-info{
@@ -63,4 +64,36 @@ body{
 
 #user-name{
   font-size: 20px;
+}
+
+/* Searchbar */
+
+#search{
+  display: flex;
+}
+
+#search-button{
+  border: none;
+  border-radius: 15px 0 0 15px;
+  cursor: pointer;
+  background-color: #343240;
+  height: 30px;
+  width: 50px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-img{
+  width: 15px;
+  padding: 0;
+}
+
+#searchbar{
+  border: none;
+  border-radius: 0 15px 15px 0;
+  height: 30px;
+  width: 500px;
+  padding: 0;
 }
