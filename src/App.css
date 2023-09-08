@@ -97,3 +97,30 @@ body{
   width: 500px;
   padding: 0;
 }
+
+/* Page links */
+
+#page-links{
+  display: flex;
+  padding: 5px;
+}
+
+#page-links a{
+  padding: 3px 5px;
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+#page-links a:hover{
+  background-color: #343240;
+  border-radius: 5px;;
+}
+
+.link-img{
+  width: 30px;
+}
