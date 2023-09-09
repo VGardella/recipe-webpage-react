@@ -134,9 +134,41 @@ body{
 
 #page-links a:hover{
   background-color: #343240;
-  border-radius: 5px;;
+  border-radius: 5px;
 }
 
 .link-img{
   width: 30px;
+}
+
+/* FOOTER */
+
+.footer{
+  background-color: #343240;
+  color: white;
+  height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+
+#signature{
+  padding: 0 20px;
+}
+
+#media-links{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.media-icon{
+  width: 30px;
+  height: 30px;
 }
