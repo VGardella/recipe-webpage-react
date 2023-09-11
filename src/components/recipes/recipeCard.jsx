@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 RecipeCard.propTypes = {
     values: PropTypes.object.isRequired,
-  };
+};
 
 export function RecipeCard({ values }) {
     return(
@@ -12,11 +12,16 @@ export function RecipeCard({ values }) {
             <div className='img-container'>
                 <img src={values.img} alt='Recipe picture'></img>
             </div>
-            <div className='info-container'>
-                <h1 className='recipe-title'>{values.title}</h1>
-                <p className='recipe-category'>{values.category}</p>
-                <p className='recipe-description'>{values.description}</p>
-                <a className='recipe-link'>Show recipe</a>
+            <div className='recipe-container'>
+                <div className='info-container'>
+                    <h1 className='recipe-title'>{values.title}</h1>
+                    <p className='recipe-category'>Categories: {values.category}</p>
+                    <p className='recipe-description'>{values.description}</p>
+                </div>
+                <div className='recipe-buttons'>
+                    <button id='open-recipe'>Show recipe</button>
+                    <button id='favorites'>Add to Favorites</button>
+                </div>
             </div>
         </div>
     )
