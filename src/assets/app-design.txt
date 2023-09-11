@@ -33,3 +33,8 @@ Componentes:
 	* Ingredientes.
 	* Paso a Paso.
 	* Tips.
+
+Para la separación de recetas en categorias y favoritos:
+* Las categorias quedan guardadas asi que se puede hacer para cada entrada una lista o array con todas estas y luego usar 
+una función del tipo 'contiene elemento'.
+* Para los favoritos tenemos que usar estado.
