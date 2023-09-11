@@ -155,7 +155,6 @@ body{
   padding: 0 20px;
 }
 
-
 #signature{
   padding: 0 20px;
 }
@@ -171,4 +170,70 @@ body{
 .media-icon{
   width: 30px;
   height: 30px;
+}
+
+/* RECIPE */
+
+/* Recipe card */
+
+.recipe-card{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f8c365;
+  border-radius: 5px;
+}
+
+.img-container img{
+  width: 100%;
+  height: 100%;
+}
+
+.info-container{
+  font-family: 'Blogger Sans', Helvetica;
+  margin: 15px 0;
+}
+
+.recipe-title{
+  margin: 0;
+  font-size: 25px;
+  font-family: 'Varela Round', Helvetica;
+}
+
+.recipe-category{
+  margin: 0;
+  padding: 0;
+}
+
+.recipe-description{
+  margin: 5px 0;
+}
+
+.recipe-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.recipe-buttons button{
+  background-color: #c77136;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 90px;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Blogger Sans';
+  src: url(../src/assets/fonts/blogger-sans.regular.ttf);
+}
+
+@font-face {
+  font-family: 'Varela Round';
+  src: url(../src/assets/fonts/varela-round.regular.ttf);
 }
