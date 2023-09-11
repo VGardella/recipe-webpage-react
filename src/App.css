@@ -62,12 +62,12 @@ body{
 }
 
 .user:hover > a #user-icon{
-    border: 2px solid #656b81;
+    border: 2px solid #f8c365;
 }
 
 .user:hover > #user-greeting p,
 .user:hover > #user-greeting h3{
-  color: #656b81;
+  color: #f8c365;
 }
 
 #user-hi{
@@ -182,7 +182,7 @@ body{
   flex-direction: column;
   padding: 20px;
   margin: 20px;
-  background-color: #f8c365;
+  background-color: #f5f0e6;
   border-radius: 5px;
 }
 
@@ -219,13 +219,16 @@ body{
 }
 
 .recipe-buttons button{
-  background-color: #c77136;
-  color: white;
+  background-color: #f8c365;
+  color: #c77136;
+  font-family: 'Blogger Sans';
+  font-weight: bold;
+  font-size: 15px;
   border: none;
   border-radius: 5px;
-  height: 40px;
-  width: 90px;
+  width: 100px;
   cursor: pointer;
+  padding: 5px;
 }
 
 @font-face {
