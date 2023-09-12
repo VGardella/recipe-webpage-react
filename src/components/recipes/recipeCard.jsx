@@ -13,7 +13,7 @@ export function RecipeCard({ values }) {
                 <img src={values.img} alt='Recipe picture'></img>
             </div>
             <div className='recipe-container'>
-                <div className='info-container'>
+                <div className='recipe-info'>
                     <h1 className='recipe-title'>{values.title}</h1>
                     <p className='recipe-category'>Categories: {values.category}</p>
                     <p className='recipe-description'>{values.description}</p>
