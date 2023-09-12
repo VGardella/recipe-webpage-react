@@ -3,6 +3,20 @@ body{
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
+/* GENERAL */
+
+.img-container img{
+  width: 100%;
+  height: 100%;
+}
+
+.recipe-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 10px;
+}
+
 /* HEADER */
 
 /* User info */
@@ -186,12 +200,7 @@ body{
   border-radius: 5px;
 }
 
-.img-container img{
-  width: 100%;
-  height: 100%;
-}
-
-.info-container{
+.recipe-info{
   font-family: 'Blogger Sans', Helvetica;
   margin: 15px 0;
 }
@@ -209,13 +218,6 @@ body{
 
 .recipe-description{
   margin: 5px 0;
-}
-
-.recipe-buttons{
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding-top: 10px;
 }
 
 .recipe-buttons button{
