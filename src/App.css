@@ -240,3 +240,64 @@ body{
   font-family: 'Varela Round';
   src: url(../src/assets/fonts/varela-round.regular.ttf);
 }
+
+/* Recipes page */
+
+.section-banner{
+  height: 350px;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Varela Round', Helvetica;
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.section-title{
+  font-family: 'Varela Round', Helvetica;
+  font-size: 75px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.section-title:before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #FFF;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+
+.section-title:after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #FFF;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+#all-recipes-banner{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/assets/recipes-banner.jpg');
+  background-size: cover;
+}
+
+#all-recipes-title{
+  width: 950px;
+}
+
+.recipes-container{
+  margin: 0 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
