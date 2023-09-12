@@ -193,7 +193,7 @@ body{
 .favorites-container{
   margin: 0 30px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 400px);
   justify-items: center;
 }
 
@@ -202,10 +202,10 @@ body{
 .favorite-card{
   display: flex;
   justify-content: start;
-  width: 400px;
-  height: 220px;
+  width: 340px;
+  height: 190px;
   padding: 20px;
-  margin: 20px;
+  margin: 20px 10px;
   background-color: #e6ebff;
   border-radius: 5px;
 }
@@ -218,8 +218,8 @@ body{
 }
 
 .favorite-img{
-  width: 200px;
-  height: 200px;
+  width: 170px;
+  height: 170px;
 }
 
 .favorite-img img{
@@ -252,7 +252,11 @@ body{
 
 .favorite-title{
   align-self: flex-start;
-  font-size: 30px;
+  font-size: 25px;
+  margin: 0;
+}
+
+.favorite-short-desc{
   margin: 0;
 }
 
