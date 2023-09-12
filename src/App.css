@@ -188,6 +188,15 @@ body{
 
 /* PRINCIPAL PAGE */
 
+/* General */
+
+.favorites-container{
+  margin: 0 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
 /* Favorite recipes */
 
 .favorite-card{
