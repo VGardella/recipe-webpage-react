@@ -186,6 +186,67 @@ body{
   height: 30px;
 }
 
+/* PRINCIPAL PAGE */
+
+/* Favorite recipes */
+
+.favorite-card{
+  display: flex;
+  justify-content: start;
+  width: 400px;
+  height: 220px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #e6ebff;
+  border-radius: 5px;
+}
+
+.favorite-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.favorite-img{
+  width: 200px;
+  height: 200px;
+}
+
+.favorite-img img{
+  object-fit: cover;
+}
+
+.favorite-buttons{
+  background-color: #656b81;
+  color: white;
+  font-family: 'Blogger Sans';
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.favorite-info{
+  font-family: 'Blogger Sans', Helvetica;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.favorite-title{
+  align-self: flex-start;
+  font-size: 30px;
+  margin: 0;
+}
+
 /* RECIPE */
 
 /* Recipe card */
