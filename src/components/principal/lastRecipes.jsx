@@ -6,6 +6,13 @@ LastRecipes.propTypes = {
 };
 
 export function LastRecipes({ values }) {
+    const [ index, setIndex ] = useState(0);
+
+    let prevRecipe = index > 0;
+    let nextRecipe = index < values.length - 1;
+
+    let recipeImage = values[index];
+
     return(
         <div className='last-card'>
             <div className='last-container'>
