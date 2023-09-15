@@ -18,7 +18,7 @@ export function LastRecipes({ values }) {
             <div className='last-container'>
                 <div className='img-container last-img'>
                     <button className='slider-button' id='last-button' onClick={handlePrev}>Last</button>
-                    <img src={}></img>
+                    <img src={recipeImage.img} style={{ width: 300 }}></img>
                     <button className='slider-button' id='next-button' onClick={handleNext}>Next</button>
                 </div>
             </div>
