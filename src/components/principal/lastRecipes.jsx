@@ -15,14 +15,18 @@ export function LastRecipes({ values }) {
         if (prevRecipe) {
             setIndex(index - 1);
         }
-        console.log(index);
+        else if (!prevRecipe) {
+            setIndex(values.length - 1)
+        }
     }
 
     function handleNext() {
         if (nextRecipe) {
             setIndex(index + 1)
         }
-        console.log(index);
+        else if (!nextRecipe) {
+            setIndex(0);
+        }
     }
 
     let recipeImage = values[index];
