@@ -32,14 +32,14 @@ export function LastRecipes({ values }) {
     let recipeImage = values[index];
 
     return(
-        <div className='last-card'>
-            <div className='last-container'>
-                <div className='img-container last-img'>
-                    <button className='slider-button' id='last-button' onClick={handlePrev}>Last</button>
-                    <img src={recipeImage.img} style={{ width: 300 }}></img>
-                    <button className='slider-button' id='next-button' onClick={handleNext}>Next</button>
-                </div>
+        <div className='img-container last-img'>
+            <button className='slider-button' id='last-button' onClick={handlePrev}> {'\u003C'} </button>
+            <img src={recipeImage.img}></img>
+            <div className='last-info'>
+                <p id='last-title'>Últimas recetas: {recipeImage.title}</p>
+                <p id='last-short-desc'>{recipeImage.shortDesc}</p>
             </div>
+            <button className='slider-button' id='next-button' onClick={handleNext}> {'\u003E'} </button>
         </div>
     )
 }
