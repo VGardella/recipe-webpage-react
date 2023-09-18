@@ -190,6 +190,12 @@ body{
 
 /* General */
 
+.last-container{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
 .favorites-container{
   margin: 0 30px;
   display: grid;
@@ -258,6 +264,44 @@ body{
 
 .favorite-short-desc{
   margin: 0;
+}
+
+/* Last recipes */
+
+.last-img{
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.last-img img{
+  object-fit: cover;
+  z-index: -1;
+}
+
+.slider-button{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  position: absolute;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Blogger Sans', Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+#last-button{
+  left: 0%;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+}
+
+#next-button{
+  right: 0%;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
 }
 
 /* RECIPE */
