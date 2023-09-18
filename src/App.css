@@ -304,6 +304,27 @@ body{
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
 }
 
+.last-info{
+  position: absolute;
+  bottom: 0;
+  height: 35%;
+  width: 100%;
+  color: white;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+}
+
+.last-info #last-title{
+  margin: 30px 30px 0 30px;
+  font-size: 50px;
+  font-family: 'Varela Round', Helvetica;
+}
+
+.last-info #last-short-desc{
+  margin: 0 30px;
+  font-size: 30px;
+  font-family: 'Blogger Sans', Helvetica;
+}
+
 /* RECIPE */
 
 /* Recipe card */
