@@ -246,6 +246,8 @@ body{
   position: absolute;
 }
 
+
+
 /* Favorite recipes */
 
 .favorite-card{
@@ -370,28 +372,6 @@ body{
 
 #principal-title{
   width: 600px;
-}
-
-#principal-title:before {
-  content: "";
-  display: block;
-  width: 120px;
-  height: 2px;
-  background: #FFF;
-  left: 0;
-  top: 50%;
-  position: absolute;
-}
-
-#principal-title:after {
-  content: "";
-  display: block;
-  width: 120px;
-  height: 2px;
-  background: #FFF;
-  right: 0;
-  top: 50%;
-  position: absolute;
 }
 
 #principal-banner{
